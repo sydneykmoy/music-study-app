@@ -12,9 +12,6 @@ That takes you to our Dashboard where the journey to productivity can begin!
 Steps to a Study Session:
 1. On the Dashboard please click the “Sign into your Spotify Account” button
      That will redirect you to the Spotify login page 
-     If you don’t want to log in with your own Spotify account you can use this one:
-       sydm42162@gmail.com
-	     testingcs392
 2. Once logged in, please click “Accept” the terms and you’ll be redirected to our Dashboard
 3. On the Dashboard please click the “Sign up for a Pixela Account” button
       You can view your newly created account at: https://pixe.la/@{username}
