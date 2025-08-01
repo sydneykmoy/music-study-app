@@ -2,6 +2,7 @@
 ### The Goal: 
 A focus/study app that tracks your productivity and the music associated with your different levels of productivity. The app will show you your productivity over time, in addition to showing you how productive you are while listening to different genres of music, tracking your progress and rewarding you as you become more and more productive. The reward system will be something similar to a gatcha game, where the goal is to collect all of the characters, but ours will be related to music. Whatever music genre you listen to while studying will be what theme the character/reward you recieve will be based on, however if it's not the music genre that you're most productive during the reward won't be as good. For example, if you're most productive when listening to classical music however you choose to listen to pop music the reward for studying will more often be something smaller or of less value. However if you listen to classical music while studying the chance of recieving a bigger reward is higher. 
 
+
 # How To Use Our App:
 
 Once you’ve downloaded the files and opened the StudyApp.sln file in Visual Studios please press the green “Start” button.
@@ -31,44 +32,6 @@ Steps to a Study Session:
    try to enter a number that’s not in that range it will let you – we didn’t get to implement error handling)
 8. Once you’ve submitted the survey you can feel free to navigate to another area of our app (the information from the survey does get sent to the backend we just didn’t have a database to store it in)
 
-
-
-
-
-## Frontend:
-
-React/Material UI (MUI)  
-
-## Backend:
-
-  .NET Core (C#)/ Stripe.NET (Stripe API integration)
-
-Running Instructions:
-
-CD frontend
-
-npm install
-
-npm start
-
-New Terminal
-
-CD Backend
-
-dotnet run
-
-
-## Spotify API: 
-
-This Python code allows users to interact with Spotify API through Spotify account login and granting permission to access users' private data. After successful login, the Spotify server will give the program {access_token, refresh_token, and expires_in}, which allows the program to access users' data for a specific amount of time. The program will compile the user's current playing tracks into a Python dictionary and create a .scv file. In the future, it would ideally be in C# and use a SQL database.
-
-Instructions on running Study Web App Demo:
-
-  0. Reference Material: https://www.youtube.com/watch?v=olY_2MW4Eik&list=PL1TBkFFBtagorhLzvm5dCA1cOqJKxnWNz&index=2
-  1. Install the libraries
-  2. Run the program. Select "http://127.0.0.1:5000".
-  3. Login with a Spotify Account. Free Spotify Account: spotifyapi392@gmail.com, CSSpotifyAPI392
-  4. Play music tracks on Spotify for roughly 1 minute.
 
 ## PixelaScript (Code to connect with Pixela's API):
 
